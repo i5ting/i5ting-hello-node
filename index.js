@@ -1,7 +1,7 @@
-module.exports = function(){
+module.exports = function () {
   log(__dirname)
 }
 
-function log(name){
-  console.log(name);
+function log (name) {
+  console.log(name)
 }
