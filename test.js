@@ -19,7 +19,6 @@ test.cb('my exec.js', t => {
     exec('node exec.js', function (error, stdout, stderr) {
         t.ifError(error)
         t.regex(stdout, /i5ting-hello-node/)
-        t.fail()
         t.end()
     })
 })
